@@ -60,7 +60,7 @@ public class sample {
         System.out.println("Screenchot is taken and stored in cucumber reports");
         Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        Assert.assertTrue(resultsPage.checkCompatibilityModel.contains("WT7900HBA"));
+        Assert.assertFalse(resultsPage.checkCompatibilityModel.contains("WT7900HBA"));
 
         Thread.sleep(3000);
     }
