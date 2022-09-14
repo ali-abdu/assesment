@@ -1,0 +1,108 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-14T16:48:46.457Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2109480586,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "sample scenario",
+        "description": "",
+        "id": "amazon-sample-test;sample-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 221812542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2320147061,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on amazon",
+            "match": {
+              "location": "sample.user_on_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10922711177,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User search for product",
+            "match": {
+              "location": "sample.user_search_for_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36865769,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check if the model matches",
+            "match": {
+              "location": "sample.check_if_the_model_matches()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3898401208,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Take the screenshot of the result",
+            "match": {
+              "location": "sample.take_the_screenshot_of_the_result()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon sample test",
+    "description": "",
+    "id": "amazon-sample-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/sample.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
